@@ -34,17 +34,22 @@
 
 <div class="form">
 
-<form action="../index.html" novalidate>
+<form action="task 8 facebok/index.html"  onsubmit="return check()"   novalidate>
     <div>
-    <input type="text" class="text" placeholder="Email or Phone number"> <br>
-    <input type="password" class="text" placeholder="Password"><br>
-    <button class="btn1">
-        Log In
-    </button>
-    <p><a href="">Forgot Password?</a><br></p>
+    <input type="text" class="text" placeholder="Email or Phone number" id="username"> <br>
+    <span id="error" ></span>
+    <input type="password" class="text" placeholder="Password" id="password"><br>
+    <span id="errorr" ></span>
+
+    <button 
+    class="btn1" id="login"><a href="#">login</a>
+        </button>
+    <p><a class="forget" href="#">Forgot Password?</a><br></p>
     <div class="btn">
-        <button>Create New Account</button>
-     
+    <button>
+        <a href="#">Create New Account</a>
+        </button>
+        
          
      </div>
 </form>
@@ -52,11 +57,13 @@
 
    
 
-
+   <script src="js/main.js"></script>
 </div>
+
 
 </section>
    
-    
+<footer><p>Design By Ahmed Elhawk</p></footer>
+
 </body>
 </html>
