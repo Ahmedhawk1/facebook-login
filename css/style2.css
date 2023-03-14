@@ -1,0 +1,148 @@
+
+/* Styling the form */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 16px;
+    width: 432px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 0;
+  }
+  
+    .frist p {
+    font-size: 14px;
+    color: #8c8c8c;
+      border-bottom: 1px solid #bdc7d8; ;
+  }
+
+.frist-name{
+  display: flex;
+  justify-content: space-around;
+}
+
+  .frist-name input{
+  margin: auto;
+  width: 200px;
+  height: 39px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  background-color: #f5f6f7;
+  margin-bottom: 10px;
+  
+}
+
+
+
+ .mail input{
+  width: 418px;
+  height: 39px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  background-color: #f5f6f7;
+  margin-bottom: 10px;
+ } 
+
+
+
+.brithday{
+  display: flex;
+  justify-content: space-between;
+  width: 418px;
+  height: 36px;
+
+}
+
+
+.brithday select{
+  width: calc(100%/3.5 );
+  background-color: #ffffff;
+}
+
+.data{
+  display: flex;
+  
+  color: #606770;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  
+}
+
+.fa-circle-question{display: inline;
+font-size: 50px;}
+
+.gender{
+  display: flex;
+  justify-content: space-around;
+}
+
+.gender in {
+ 
+}
+
+.gender label{
+  border: 1px solid  #606770 ;
+
+  background-color: #ffffff;
+  height: 36px;
+  margin-top: 10px;
+
+}
+
+
+  .last {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8c8c8c;
+  }
+  
+  .last a {
+    color: #1877f2;
+    text-decoration: none;
+  }
+  
+  .last a:hover {
+    text-decoration: underline;
+  }
+  
+  .fa-solid {
+    font-size: 12px;
+    color: #8c8c8c;
+    margin-left: 5px;
+  }
+
+ .btn-sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ }
+
+ .btn-sign-up button{
+  background: none;
+  background-color: #00a400;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+
+  font-size: 18px;
+  font-weight: 600;
+  height: 36px;
+  overflow: hidden;
+  padding: 0 32px;
+
+ }
+
+ a{
+  color: #fff;
+  text-decoration: none;
+ }
