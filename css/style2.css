@@ -8,6 +8,7 @@ form {
     width: 432px;
     margin: auto;
     font-family: Arial, sans-serif;
+    align-items: center;
   }
   
 
@@ -17,18 +18,18 @@ form {
     margin-top: 0;
   }
   
-    .frist p {
+    .first p {
     font-size: 14px;
     color: #8c8c8c;
       border-bottom: 1px solid #bdc7d8; ;
   }
 
-.frist-name{
+.first-name{
   display: flex;
   justify-content: space-around;
 }
 
-  .frist-name input{
+  .first-name input{
   margin: auto;
   width: 200px;
   height: 39px;
@@ -52,18 +53,20 @@ form {
 
 
 
-.brithday{
+.birthday{
   display: flex;
   justify-content: space-between;
   width: 418px;
   height: 36px;
 
+  margin-bottom: 10px;
 }
 
 
-.brithday select{
+.birthday select{
   width: calc(100%/3.5 );
   background-color: #ffffff;
+
 }
 
 .data{
@@ -74,28 +77,30 @@ form {
   font-size: 12px;
   font-weight: normal;
   line-height: 20px;
-  
+  margin-top: -10px;  
 }
 
-.fa-circle-question{display: inline;
+.fa-circle-question{display: flex;
+  margin-top: 13px;
 font-size: 50px;}
 
 .gender{
   display: flex;
-  justify-content: space-around;
-}
+  justify-content: space-between;
+  align-items: center;
 
-.gender in {
- 
+}
+.gender div{
+  border: #606770 1px solid;
+  width: 120px;
+  height: 36px;
+  margin-bottom: 40px;
 }
 
 .gender label{
-  border: 1px solid  #606770 ;
-
   background-color: #ffffff;
   height: 36px;
   margin-top: 10px;
-
 }
 
 
@@ -127,20 +132,21 @@ font-size: 50px;}
   width: 100%;
  }
 
- .btn-sign-up button{
+ .btn-sign-up input{
   background: none;
   background-color: #00a400;
-  border: none;
+  outline: none;
   border-radius: 6px;
-  box-shadow: none;
-
+  color: #fff;
   font-size: 18px;
   font-weight: 600;
   height: 36px;
-  overflow: hidden;
   padding: 0 32px;
-
+  cursor: pointer;
+  border: none;
  }
+
+
 
  a{
   color: #fff;

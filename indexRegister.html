@@ -14,22 +14,22 @@
 
     <div class="continer">
         	
-
-        <form action="">
+ 
+        <form action="/index.html"  onsubmit="return register()"   novalidate >
            <div class="frist">
              
             <h2>Sign Up</h2>
             <p>It's quick and easy.</p>
            </div>
-            <div class="frist-name">
-            <input type="text" placeholder="Frist Name" id="fristName">
-            <input type="text" placeholder="Surname"  id="surName">
+            <div class="first-name">
+                <input type="text" placeholder="First Name" id="firstName">
+                <input type="text" placeholder="Surname" id="surName">
             </div>
 
 
             <div class="mail">
-            <input type="email" placeholder="Email or Phone number" >
-            <input type="password" placeholder="New password">
+            <input type="email" placeholder="Email or Phone number" id="email">
+            <input type="password" placeholder="New password" id="password">
             </div>
 
 
@@ -37,7 +37,10 @@
                  <p>Date of birth</p>
                 <i class="fa-solid fa-circle-question"></i>
             </div>
-            <div class="brithday">
+            <div class="birthday">
+
+
+                
                 <select name="Day" id="" class="">
                     <option value="">1</option>
                     <option value="">2</option>
@@ -50,23 +53,44 @@
                     <option value="">feb</option>
                 </select>
 
-                <select name="Year" id="">
+                <select name="Year" id="Year">
                     <option value="">2011</option>
                     <option value="">2012</option>
                     <option value="">2013</option>
                 </select>
             </div>
             
-            <div class="gender">
-                <input type="radio" id="men" name="gender" value="men">
-                <label for="men">Men</label><br>
-                <input type="radio" id="css" name="gender" value="CSS">
-                <label for="css">Women</label><br>
-                <input type="radio" id="women" name="fav_language" value="women">
-                <label for="women">Women</label>
 
-                </label>
-    
+
+            <div class="data"> 
+                <p>gender</p>
+               <i class="fa-solid fa-circle-question"></i>
+           </div>
+
+
+            <div class="gender">
+                <div>
+                    <label for="Men">Men</label>
+                    <input type="radio" id="men" name="gender" value="Men">
+                </div>
+
+                <div>
+                     <label for="Women">Women</label>
+                    <input type="radio" id="Women" name="gender" value="Women">
+                </div>
+
+                <div>
+                <label for="Child">child</label>
+                <input type="radio" id="Child" name="gender" value="Child">
+                </div>
+            
+                
+
+               
+
+                
+
+             
                
             </div>
             <div class="last">    
@@ -81,13 +105,13 @@
             </div>
     
             <div class="btn-sign-up">
-                <button>
-                    <a href="task 8 facebok/index.html">Sign Up</a>
-                    </button>
-                    
-                     
+              
+            <input type="submit"  value="sing up">
                  </div>
         </form>
   </div>
+
+  <script src="js/main.js"></script>
+
 </body>
 </html>
